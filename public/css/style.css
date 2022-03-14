@@ -1,0 +1,494 @@
+
+/* ネオン文字 */
+.dark{
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.neontext {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  }
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
+/* ネオン文字 */
+/* ナビゲーション */
+.nav-pc a{
+  width: 10em;
+  height: 6em;
+  display: block;
+  font-family: -webkit-body;
+}
+.nav-pc a:hover{
+  background-color:black;
+}
+.navbar-brand{
+  margin-left:10%;
+}
+.padding-reset{
+  padding:0;
+}
+.nav-2{
+  display:none;
+}
+
+
+
+/* 以下はすべて新規行で追加 */
+.clicked .ham_line1 {
+	transform: rotate(45deg);
+	top: 20px;
+}
+.clicked .ham_line2 {
+	width: 0px;
+}
+.clicked .ham_line3 {
+	transform: rotate(-45deg);
+	top: 20px;
+}
+
+/* コンテンツ */
+.pt-7{
+  padding-top:5%;
+}
+/*--- Works Start ---*/
+/* 画像1 */
+.conte-img{
+position: relative;
+overflow: hidden;
+max-width: 450px;
+height: 240px
+}
+.conte-img:after {
+position: absolute;
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+top: 0;
+background: url(../img/fast/top2.jpg)no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+background-size: cover;
+-webkit-transition: all .3s ease-out;
+-moz-transition: all .3s ease-out;
+-ms-transition: all .3s ease-out;
+transition: all .3s ease-out;
+}
+.conte-img:hover:after {
+opacity: .8;
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+.conte-img a{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
+height: 100%;
+text-decoration: none;
+color: #fff
+}
+/* 画像2 */
+.conte-img2{
+position: relative;
+overflow: hidden;
+max-width: 450px;
+height: 240px
+}
+.conte-img2:after {
+position: absolute;
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+top: 0;
+background: url(../img/qanda/top.jpg)no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+background-size: cover;
+-webkit-transition: all .3s ease-out;
+-moz-transition: all .3s ease-out;
+-ms-transition: all .3s ease-out;
+transition: all .3s ease-out;
+}
+.conte-img2:hover:after {
+opacity: .8;
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+.conte-img2 a{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
+height: 100%;
+text-decoration: none;
+color: #fff
+}
+/* 画像3 */
+.conte-img3{
+position: relative;
+overflow: hidden;
+max-width: 450px;
+height: 240px
+}
+.conte-img3:after {
+position: absolute;
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+top: 0;
+background: url(../img/fukulog/vlog-top2.png)no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-ms-background-size: cover;
+background-size: cover;
+-webkit-transition: all .3s ease-out;
+-moz-transition: all .3s ease-out;
+-ms-transition: all .3s ease-out;
+transition: all .3s ease-out;
+}
+.conte-img3:hover:after {
+opacity: .8;
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+.conte-img3 a{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
+height: 100%;
+text-decoration: none;
+color: #fff
+}
+.modal-dialog-fluid {
+  max-width: inherit;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thumbnails img{
+  width:75px;
+  height:75px;
+}
+/*--- Works End ---*/
+/*--- Profile Start ---*/
+.tree-container{
+    width: 100%;
+    height:5300px;
+    position: relative;
+    text-align: left;
+    padding: 200px 0.75rem 0;
+}
+.tree-container::before{
+  position: absolute;
+    width: 6px;
+    background: black;
+    top: 0px;
+    left: 0.75rem;
+    margin-left: 25%;
+    content: '';
+    height: 100%;
+}
+.leaf-row h2{
+  
+  font-size: xxx-large;
+  color:black;;
+}
+.leaf-row h2 span{
+  display:inline;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  font-size: 16px;
+}
+.{
+  position:relative;
+  margin-left:28%;
+}
+.leaf-circle{
+ position: absolute;
+ left: 30%;
+ top: -80px;
+ box-shadow:0px 0px 0px 5px black;
+ border-radius: 50%;
+ width:250px;
+ height:250px;
+ background-size: cover;
+ background-position: center;
+}
+.leaf-row {
+    margin-bottom: 300px;
+    position: relative;
+}
+.leaf-row h2:after {
+    position: absolute;
+    width: 4%;
+    height: 5px;
+    background: black;
+    top: 35px;
+    left: 26%;
+    content: '';
+}
+.leaf-card{
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    top:130px;
+    left:30%;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 1px rgb(26 27 33 / 80%);
+    border-left: 5px solid rgba(0, 0, 0, 0.9);
+    color: rgba(255,255,255,.9);
+}
+/*--- Profile End ---*/
+/*--- Contact me Start ---*/
+.input-field{
+  margin: 0;
+  padding-top: 12px;
+  position: relative;
+}
+
+.input-field label{
+  position: absolute;
+  left:15px;
+  color: #aaa;
+  transition: all 0.2s;
+  cursor: text;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+.input-field input,.input-field textarea{
+  height: 24px;
+  padding: 2px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555;
+  outline: none;
+  width: 100%;
+}
+.input-field input:focus, .input-field input.filled,.input-field textarea:focus{
+  border-bottom: 1px solid #198754;
+}
+.input-field input:focus + label{
+  font-size: 11px;
+  line-height: 12px;
+  top: -10px;
+  color: #198754;
+}
+.input-field textarea:focus + label{
+  font-size: 11px;
+  line-height: 12px;
+  top: 20px;
+  color: #198754;
+}
+.materialize-textarea{
+  overflow-y: hidden;
+  padding: 0.8rem 0 1.6rem 0;
+  resize: none;
+  min-height: 3rem;
+}
+input {
+  border: 1px solid black;
+  padding: 3px;
+}
+input:not(:placeholder-shown) + label{
+  font-size: 11px;
+  line-height: 12px;
+  top: -10px;
+}
+textarea:not(:placeholder-shown) + label{
+  font-size: 11px;
+  line-height: 12px;
+  top: 20px;
+}
+/*--- Contact me End ---*/
+.btn-send{
+  color:white;
+}
+.btn-send:hover{
+  color:#aaa;
+}
+.scroll-to-top-btn{
+  position: relative;
+}
+#page_top{
+  width: 90px;
+  height: 60px;
+  position: absolute;
+  right: 100px;
+  top: -60px;
+  opacity: 0.6;
+}
+.footer{
+  position: relative;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  top: -80px;
+  bottom: 0;
+  left: 35px;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 23px;
+  color: black;
+  position: absolute;
+  top: 0;
+  bottom: 70px;
+  right: 0;
+  left: -50px;
+  margin: auto;
+  text-align: center;
+}
+
+#page_top a{
+  position: relative;
+  display: block;
+  width: 150px;
+  height: 60px;
+  text-decoration: none;
+}
+.modal-left{
+      width:25%;
+}
+.modal-right{
+      width:75%;
+      padding:50px;
+}
+/*レスポンシブ対応*/
+@media (max-width: 1024px){
+    .tree-container{
+      height:5600px;
+    }
+    .modal-left{
+      width:100%;
+    }
+    .modal-right{
+      width:100%;
+      padding:0;
+    }
+}
+@media (max-width: 780px) {
+  .tree-container{
+      height:5750px;
+    }
+    .leaf-row h2{
+       font-size: xx-large;
+    }
+    .leaf-circle{
+       width:200px;
+       height:200px;
+      }
+    .leaf-card {
+       top:100px;
+    }
+    .robo-img{
+       width:100px;
+    }
+    .nav-1{
+      display:none;
+    }
+    .nav-2{
+      display:inline-block;
+    }
+}
+@media (max-width: 450px) {
+  .tree-container{
+      height:6150px;
+      left: -0.25rem;
+    }
+    .tree-container::before {
+    position: absolute;
+    width: 6px;
+    background: black;
+    top: 0px;
+    left: -0.25rem;
+    margin-left: 25%;
+    content: '';
+    height: 100%;
+}
+    .leaf-row h2{
+    font-size: large;
+    }
+    .leaf-row h2:after {
+    position: absolute;
+    width: 4%;
+    height: 5px;
+    background: black;
+    top: 35px;
+    left: 24%;
+    content: '';
+    }
+    .leaf-circle{
+    width: 150px;
+    height: 150px;
+    top: -45px;
+    left: 29%;
+    }
+    .leaf-card{
+       top: 100px;
+       width: 50%;
+       left: 26%;
+       padding: 15px 10px;
+    }
+    .leaf-row h2 span {
+    font-size: 13px;
+    }
+    #page_top a::before{
+       left: 140px;
+       font-size: 30px;
+       top: -40px;
+    }
+    #page_top a::after {
+      font-size: 15px;
+      top: 0;
+      left: 134px;
+    }
+}
+@media (max-width: 350px) {
+  .tree-container{
+      height:6650px;
+    }
+}
