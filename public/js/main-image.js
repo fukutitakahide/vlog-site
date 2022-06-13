@@ -73,6 +73,9 @@ function showimg24(){
 function showimg25(){
      document.getElementById("area5").setAttribute("src","public/img/recipelog/user-show.png");
 }
+function showimg28(){
+     document.getElementById("area5").setAttribute("src","public/img/recipelog/recipe-er.png");
+}
 // 画像6始まり
 function showimg26(){
      document.getElementById("area6").setAttribute("src","public/img/todoapp/todoapp-1.png");
